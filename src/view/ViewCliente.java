@@ -329,12 +329,7 @@ public class ViewCliente extends javax.swing.JFrame {
 
     private void JTxtEmailKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_JTxtEmailKeyTyped
         // TODO add your handling code here:
-        if (evt.getSource().equals(JTxtEmail)) {
-            Character c = evt.getKeyChar();
-            if (!Character.isLetter(c) && !c.toString().equals("")) {
-                evt.consume();
-            }
-        }
+        
     }//GEN-LAST:event_JTxtEmailKeyTyped
 
     private void JTxtClienteKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_JTxtClienteKeyTyped
